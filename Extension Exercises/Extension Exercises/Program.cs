@@ -20,6 +20,9 @@ namespace Extension_Exercises
             int num2 = int.Parse(Console.ReadLine());
 
             maths(num1,num2);
+
+            Console.Write("The END");
+            Console.ReadLine();
          
         }
 
@@ -54,6 +57,7 @@ namespace Extension_Exercises
             {
                 Console.WriteLine("You've broken the app");
             }
+                
         }
         }
     }
