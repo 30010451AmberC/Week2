@@ -20,6 +20,7 @@ namespace Extension_Exercises
             int num2 = int.Parse(Console.ReadLine());
 
             maths(num1,num2);
+         
         }
 
         public static void maths(int num1,int num2)
@@ -33,15 +34,18 @@ namespace Extension_Exercises
             if (keyPressed == 1)
             {
                 int answer = num1 + num2;
-            }
+                Console.WriteLine(answer);
+                }
             else if (keyPressed == 2)
             {
                 int answer = num1 * num2;
-            }
+                Console.WriteLine(answer);
+                }
             else if (keyPressed == 3)
             {
                 int answer = num1 / num2;
-            }
+                Console.WriteLine(answer);
+                }
             else if (keyPressed != 1 || keyPressed != 2 || keyPressed != 3)
             {
                 Console.WriteLine("Press either 1, 2 or 3!");
